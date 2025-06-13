@@ -1,7 +1,8 @@
-thislist = ["apple", "banana", "cherry"]
-# thislist.remove("banana")
-# print(thislist)
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 
-# thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
-# thislist.remove("banana")
-# print(thislist)
+# (green, yellow, *red) = fruits
+
+# print("Using Asterisk*")
+# print(green)
+# print(yellow)
+# print(red)
