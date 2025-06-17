@@ -80,3 +80,14 @@ newDict = {
 # newDict.pop("key2")
 thisdict.popitem()
 print(newDict)
+
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+
+copiedDict = thisdict.copy()
+print("copiedDict", copiedDict)
+
+
+thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
+newCopiedDict = dict(thisdict)
+print("newCopiedDict", newCopiedDict)

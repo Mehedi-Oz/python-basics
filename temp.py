@@ -70,37 +70,89 @@
 # print(b[2:100000000])
 
 
-a = "Hello, World!"
-print(a.upper())
+# a = "Hello, World!"
+# print(a.upper())
 
-a = " Hello, World! "
-print(a.strip())
-
-
-a = "Hello"
-b = "World"
-c = a + b
-print(c)
+# a = " Hello, World! "
+# print(a.strip())
 
 
-a = "Hello"
-b = "World"
-c = a + " " + b
-print(c)
+# a = "Hello"
+# b = "World"
+# c = a + b
+# print(c)
 
 
-price = 59
-txt = f"The price is {price:.2f} dollars"
-print(txt)
-
-backSlash = "here is a\r backslash"
-print(backSlash)
+# a = "Hello"
+# b = "World"
+# c = a + " " + b
+# print(c)
 
 
-txt = "Hello, And Welcome To My World!"
-x = txt.casefold()
+# price = 59
+# txt = f"The price is {price:.2f} dollars"
+# print(txt)
+
+# backSlash = "here is a\r backslash"
+# print(backSlash)
+
+
+# txt = "Hello, And Welcome To My World!"
+# x = txt.casefold()
+# print(x)
+
+
+# print(bool("Hello"))
+# print(bool(["apple", "cherry", "banana"]))
+
+thisDict = {
+    "name": "hasan",
+    "model": "Ryzen",
+    "year": 2025,
+}
+
+print(thisDict)
+
+
+x = thisDict["model"]
 print(x)
 
+x = thisDict.get("year")
+print(x)
 
-print(bool("Hello"))
-print(bool(["apple", "cherry", "banana"]))
+keys = thisDict.keys()
+print(keys)
+
+
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+
+car["color"] = "gray"
+print(car)
+
+print(car.values())
+
+print(car.items())
+
+car.update({"model": "supra"})
+
+print(car)
+
+# car.pop("year")
+car.popitem()
+print(car)
+
+
+car = {"brand": "Ford", "model": "Supra", "year": 1964}
+del car["year"]
+print(car)
+
+
+car = {"brand": "Ford", "model": "Supra", "year": 1964}
+car.clear()
+print(car)
+
+
+car = {"brand": "Ford", "model": "Supra", "year": 1964}
+for x, y in car.items():
+  print(x, y)
+
