@@ -1,8 +1,11 @@
-fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+def tri_recursion(k):
+#     if k > 0:
+#         result = k + tri_recursion(k - 1)
+#         print(result)
+#     else:
+#         result = 0
+#     return result
 
-# (green, yellow, *red) = fruits
 
-# print("Using Asterisk*")
-# print(green)
-# print(yellow)
-# print(red)
+# print("Recursion Example Results:")
+# tri_recursion(6)
