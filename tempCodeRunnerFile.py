@@ -1,11 +1,6 @@
-def tri_recursion(k):
-#     if k > 0:
-#         result = k + tri_recursion(k - 1)
-#         print(result)
-#     else:
-#         result = 0
-#     return result
+x = "hello"
 
-
-# print("Recursion Example Results:")
-# tri_recursion(6)
+# if not type(x) is int:
+#     raise TypeError("Only integers are allowed")
+# else:
+#     print("You're good to go")
