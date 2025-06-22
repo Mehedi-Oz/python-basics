@@ -1,0 +1,4 @@
+Previous texts are gone beacause of 'w'
+
+This is a new line, added from write file
+
