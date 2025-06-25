@@ -105,54 +105,100 @@
 # print(bool("Hello"))
 # print(bool(["apple", "cherry", "banana"]))
 
-thisDict = {
-    "name": "hasan",
-    "model": "Ryzen",
-    "year": 2025,
-}
+# thisDict = {
+#     "name": "hasan",
+#     "model": "Ryzen",
+#     "year": 2025,
+# }
 
-print(thisDict)
-
-
-x = thisDict["model"]
-print(x)
-
-x = thisDict.get("year")
-print(x)
-
-keys = thisDict.keys()
-print(keys)
+# print(thisDict)
 
 
-car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+# x = thisDict["model"]
+# print(x)
 
-car["color"] = "gray"
-print(car)
+# x = thisDict.get("year")
+# print(x)
 
-print(car.values())
-
-print(car.items())
-
-car.update({"model": "supra"})
-
-print(car)
-
-# car.pop("year")
-car.popitem()
-print(car)
+# keys = thisDict.keys()
+# print(keys)
 
 
-car = {"brand": "Ford", "model": "Supra", "year": 1964}
-del car["year"]
-print(car)
+# car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+
+# car["color"] = "gray"
+# print(car)
+
+# print(car.values())
+
+# print(car.items())
+
+# car.update({"model": "supra"})
+
+# print(car)
+
+# # car.pop("year")
+# car.popitem()
+# print(car)
 
 
-car = {"brand": "Ford", "model": "Supra", "year": 1964}
-car.clear()
-print(car)
+# car = {"brand": "Ford", "model": "Supra", "year": 1964}
+# del car["year"]
+# print(car)
 
 
-car = {"brand": "Ford", "model": "Supra", "year": 1964}
-for x, y in car.items():
-  print(x, y)
+# car = {"brand": "Ford", "model": "Supra", "year": 1964}
+# car.clear()
+# print(car)
 
+
+# car = {"brand": "Ford", "model": "Supra", "year": 1964}
+# for x, y in car.items():
+#     print(x, y)
+
+
+# questions = [
+#     "Q1: Is Python code compiled or interpreted?",
+#     "Q2: All keywords in Python are in _________",
+#     "Q3: Which keyword is used for function in Python language?",
+# ]
+
+# questions = [0, 1, 2]
+
+
+# for i in questions:
+#     print(questions[i])
+
+
+fruits = [
+    "apple",
+    "banana",
+    "cherry",
+    "orange",
+    "grape",
+    "strawberry",
+    "blueberry",
+    "pineapple",
+    "mango",
+    "kiwi",
+    "peach",
+    "pear",
+    "plum",
+    "watermelon",
+    "cantaloupe",
+    "papaya",
+    "pomegranate",
+    "avocado",
+    "lemon",
+    "lime",
+]
+x = 0
+for x in fruits:
+    count = x * 2
+
+    print(fruits[count])
+
+
+# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+# for x in nums:
+#     print(nums[x])
